@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Default HTML Page - BASIC</title>
+  <style type="text/css">
+  	body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="vBC"] {  
+  width: 3.5in;
+  height: 2in; 
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+html, body {
+  height: 100%;
+  font-family: Abril Fatface, Cherry Swash, cursive;
+  background:#f5bbb5;
+  text-align: center;
+ 
+}
+
+.text1 {
+  letter-spacing: 0.5em;
+  color: black;
+  font-size: .05rem;
+  font-weight: 100;
+  text-align: left;
+  line-height: 20px;
+  }
+
+.text2 {
+  letter-spacing: 0.05em;
+  color: black;
+  font-size: .5rem;
+  font-weight: 100;
+  text-align: left;
+  line-height: 20px;
+  }
+.app {
+  display: flex;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.text {
+ font-size: 8vw;
+ font-family: cursive;
+ padding: .5rem;
+ line-height: 20px;
+ font-weight: 50px;
+
+}
+
+.text3{
+    font-size: 7vw;
+    font-family: 'Abril Fatface';
+    padding: .5rem;
+    margin: 5px;
+    line-height: 20px;
+/*    background: black;
+    color: white;*/
+    
+}
+.rotate-left{
+  background: black;
+  text-align: right;
+  margin: 5px;
+  display: table-cell;
+  transform: rotate(270deg);
+  overflow: hidden;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.5vw;
+  font-family: 'Gravitas One';
+  padding: .5rem;
+}
+.rotate-right{
+  font-size: .5vw;
+  padding: .05rem;
+  
+}
+
+</style>
+
+<link href="https://fonts.googleapis.com/css?family=Cherry Swash" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Abril Fatface" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Gravitas One" rel="stylesheet" type="text/css">
+
+</head>
+
+<body >
+  <header>
+  </header>
+
+  
+  
+  <main>
+    <!-- The main element represents the main content of the body of a document or application. The main content area consists of content that is directly related to or expands upon the central topic of a document or central functionality of an application. -->
+
+<page size="vBC">
+
+<div class="app">
+
+  <div class="container">
+    <div> 
+      <span class="text">L A L</span>
+      <br><br>
+      <span class="text1">Linda Angulo Lopez</span>
+      <span class="text2">angulo.linda@gmail.com</span> 
+      <span class="text1"> 06. 76. 28. 66. 26</span> 
+    </div>
+
+  </div>
+
+  <div class="texture">
+ 
+  </div>
+
+</div>
+
+</page>
+
+<page size="vBC">
+
+<div class="app">
+
+  <div class="container">
+    <div> 
+      <span class="text3">L A L</span>
+      <br><br>
+      <span class="text1">Linda Angulo Lopez </span>
+      <span class="text2">angulo.linda@gmail.com</span> 
+      <span class="text1"> 06. 76. 28. 66. 26</span> 
+    </div>
+
+  </div>
+
+  <div class="texture">
+ 
+  </div>
+
+</div>
+
+</page>
+
+<page size="vBC">
+
+<div class="app">
+
+  <div class="container">
+    <div> 
+      <span class="rotate-left">L A L</span><br>
+        <p class="rotate-right">Linda Angulo Lopez<br>angulo.linda@gmail.com<br>06. 76. 28. 66. 26</p>
+      
+    </div>
+  </div>
+
+  <div class="texture">
+ 
+  </div>
+
+</div>
+
+</page>
+
+
+
+  </main>
+
+ 
+  
+  
+  <footer> </footer>
+
+</body>
+
+</html>
