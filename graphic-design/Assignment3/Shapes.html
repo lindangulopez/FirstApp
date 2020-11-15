@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Default HTML Page - BASIC</title>
+  <style type="text/css">
+    body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="shape"][layout="landscape"] {
+  width: 70%;
+  height:50%;
+ }
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+ div{
+/*   width: 150px;
+  height: 150px; */
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+
+section {
+  text-align: center;
+}
+
+div{
+/*   width: 150px;
+  height: 150px; */
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+
+:before,
+:after {
+  position: absolute;
+  content: '';
+}
+
+.let-s {
+  width: 150px;
+  height: 75px;  
+  background-color: red;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  border-bottom: 0;
+  transform: rotate(140deg);
+  animation: rotate4 7s ease-in-out infinite;
+}
+
+.let-s:after {
+  width: 150px;
+  height: 75px; 
+  bottom: -75px;
+  right: 30px;
+  background-color: black;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  border-bottom: 0;
+  transform: rotate(180deg);
+  animation: rotate3 7s ease-in-out infinite;
+}
+
+.let-h {
+  width: 50px;
+  height: 150px;
+  border-left: 50px solid red;  
+  border-right: 50px solid red;
+  animation: rotate 7s ease-in-out infinite;
+}
+
+.let-h:before {
+  width: 50px;
+  height: 50px;
+  background: black;
+  left: 0;
+  top: 50px;
+  animation: rotate2 7s ease-in-out infinite;
+}
+
+.let-a {
+  width: 0;
+  height: 0;
+  border-left: 75px solid  transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 150px solid black;
+  animation: rotate2 7s ease-in-out infinite;
+}
+
+
+
+.let-p {
+  height: 150px;
+  border-left: 50px solid red;
+  width: 100px;
+  animation: rotate2 7s ease-in-out infinite;
+}
+
+.let-p:after {
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 50% 50% 0;
+  background: black;
+  animation: rotate 7s ease-in-out infinite;
+}
+
+.let-e {
+  width: 150px;
+  border-top: 50px solid red;
+  border-bottom: 50px solid red;
+  height: 50px;
+  background: black;
+  animation: rotate 7s ease-in-out infinite;
+}
+
+
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translate(0px, 120px) rotate(45deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translate(0px, -120px) rotate(-45deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate3 {
+  0% {
+    transform: rotate(180deg);
+  }
+  20% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(-140deg);
+  }
+  80% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotate4 {
+  0% {
+    transform: rotate(140deg);
+  }
+  20% {
+    transform: rotate(140deg);
+  }
+  50% {
+    transform: rotate(200deg);
+  }
+  80% {
+    transform: rotate(140deg);
+  }
+  100% {
+    transform: rotate(140deg);
+  }
+}
+  
+page[size="forms"][layout="landscape"] {
+  width: 50%;
+  height:50%;
+ }
+
+  </style>
+
+</head>
+
+<body>
+  <header>
+  </header>
+
+  
+  
+  <main>
+    <!-- The main element represents the main content of the body of a document or application. The main content area consists of content that is directly related to or expands upon the central topic of a document or central functionality of an application. -->
+
+
+  
+ 
+<page size="shape" layout="landscape"><section>
+<div class='let-s'></div>
+<div class='let-h'></div>
+<div class='let-a'></div>
+<div class='let-p'></div>
+<div class='let-e'></div>
+</section>
+  </page>
+
+</main>
+
+ 
+  
+  
+  <footer> </footer>
+
+</body>
+
+</html>
