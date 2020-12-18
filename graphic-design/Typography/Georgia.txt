@@ -1,0 +1,22 @@
+K
+Georgia, a core web font
+
+		
+
+
+
+The Georgia typeface was created by Tom Ricker, his design challenge was to create an “elegant & legible” typeface for on screen use.  He chose to make a transition from his typeface Verdana towards Times New Roman for the Microsoft Corporation, both were released in 1993. For example, taking the uppercase K  in Georgia, the strokes of the vertical meet at the upper stroke, without a gap while in Verdana and the News 706 fonts, the digital strokes meet at the ‘T’ , and when compared to the Times New Roman where the leg of the uppercase K has two serifs the Georgia font, has just  a single, right pointing serif, or foot, see LinkedIn article. 
+
+
+ The typeface is inspired by 19th century print typeface, and is a reimagination of transitional serif designs, but it has a larger x-height and fewer fine details. Georgia shows several traditional features of "rational" serif typefaces from around the early 19th century, such as alternating thick and thin strokes, ball terminals and a vertical axis. It is a core font for web development, even if there is some restlessness towards other fonts like News 706 closer to Verdana	
+1.	Georgia (typeface)
+2.	 Georgia font family - Typography 
+3.	Georgia alien heads found in
+4.	Font differences Verdana & Georgia 
+5.	Font differences Times New Roman & Georgia 
+6.	Font differences Georgia  News 706
+7.	First Published on   LinkedIn lindangulopez 
+		
+SOURCES
+			
+ 
